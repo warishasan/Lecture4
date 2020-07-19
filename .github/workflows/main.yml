@@ -38,4 +38,4 @@ jobs:
       run: npm install -g surge
     
     - name: deploying on surge
-      run: surge ./build http://symptomatic-winter.surge.sh/ --token ${{ secrets.MY_TOKEN }}
+      run: surge ./build http://quiet-distance.surge.sh/ --token ${{ secrets.MY_TOKEN }}
