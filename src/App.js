@@ -13,9 +13,9 @@ function App() {
       
       <h1> The temperature is {counter}  </h1>
 
-    <button onClick = {()=> updateCounter(++counter) } > + </button>
+    <button onClick = {()=> updateCounter(++counter) } > increase temp </button>
     
-    <button onClick = {()=> updateCounter(--counter) } > - </button>
+    <button onClick = {()=> updateCounter(--counter) } > decrease temp </button>
       
     <button onClick = {()=> setWeather(!isWinter) } > Change Weather </button>
 
