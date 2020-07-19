@@ -1,0 +1,11 @@
+html, body, #root,.box {
+  height: 100%;
+}
+.winter {
+  background-color: blue;
+  color: black;
+}
+.summer {
+  background-color:yellow;
+  color: black
+}
